@@ -65,7 +65,7 @@ for i in range(scale * min_x, scale * max_x):
 cv2.imwrite('res12.jpg', final)
 final = np.zeros((500, 500, 3))
 
-# $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+# $$
 # another try:
 count = 0
 for i in range(-100, 500):
